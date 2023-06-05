@@ -7,5 +7,9 @@ resources:
     - namespace.yaml
     - https://raw.githubusercontent.com/argoproj/argo-cd/v2.6.8/manifests/install.yaml
 
-patchesStrategicMerge:
-    - argocd-server-service.yaml
+patches:
+    - target:
+        kind: Service
+        name: argocd-server
+      path: argocd-server-service.yaml
+      
