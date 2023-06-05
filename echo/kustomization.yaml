@@ -6,4 +6,5 @@ namespace: echo
 resources:
     - namespace.yaml
     - echo-server.yaml
+    - echo-service.yaml
       
