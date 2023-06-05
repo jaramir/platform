@@ -1,4 +1,8 @@
-- Service for echo
-- Ingress
+- Ingress 
 - Hostname based Ingress
 - SSL certificate
+- Having to bootstrap twice because of CRD is annoying (but demos well)
+- Local testing without pushing would be nice
+- Local testing with partial deployment (eg. no ArgoCD)
+- Application upgrades
+- staging & Production
