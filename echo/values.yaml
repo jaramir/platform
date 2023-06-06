@@ -1,7 +1,7 @@
 replicaCount: 3
 
 image:
-  repository: nginx
+  repository: kicbase/echo-server
   pullPolicy: IfNotPresent
   tag: ""
 
