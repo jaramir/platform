@@ -3,6 +3,10 @@
 
 - Helm rather than Kustomize
 
+- Horizontal Pod Autoscalers (HPA)
+- Prometheus
+- Graphana
+
 - SSL certificate
 - Secret management
 
@@ -14,9 +18,3 @@
 
 - Separate staging and production environments & promotion
 - Separate clusters for staging, production, and platform
-
-- Having to bootstrap twice because of CRD is annoying (but demos well)
-
-- Horizontal Pod Autoscalers (HPA)
-- Prometheus
-- Graphana
