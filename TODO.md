@@ -1,6 +1,8 @@
 - Ingress 
 - Hostname based Ingress
 
+- Helm rather than Kustomize
+
 - SSL certificate
 - Secret management
 
@@ -11,7 +13,10 @@
 - Application upgrades
 
 - Separate staging and production environments & promotion
-
 - Separate clusters for staging, production, and platform
 
 - Having to bootstrap twice because of CRD is annoying (but demos well)
+
+- Horizontal Pod Autoscalers (HPA)
+- Prometheus
+- Graphana
