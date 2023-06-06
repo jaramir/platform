@@ -5,7 +5,7 @@ metadata:
   name: echo-service
 
 spec:
-  type: NodePort
+  type: LoadBalancer
 
   selector:
     app: echo-server
