@@ -1,6 +1,6 @@
 #!/bin/bash
 
-minikube start
+minikube start --addons=ingress
 
 kubectl apply -k argocd
 
