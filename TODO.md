@@ -1,8 +1,3 @@
-- Ingress 
-- Hostname based Ingress
-
-- Helm rather than Kustomize
-
 - Horizontal Pod Autoscalers (HPA)
 - Prometheus
 - Graphana

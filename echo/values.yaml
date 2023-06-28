@@ -31,7 +31,7 @@ ingress:
   hosts:
     - host: echo-ingress.test
       paths:
-        - path: /
+        - path: /echo
           pathType: ImplementationSpecific
   tls: []
 
